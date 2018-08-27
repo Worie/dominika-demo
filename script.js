@@ -3,7 +3,9 @@ const getRandomArbitrary = (min, max) => {
   return Math.random() * (max - min) + min;
 }
 
-
+/**
+ * Handles mouse movement
+ */
 const handleMouseMove = () => {
   let r,g,b,a;
 
