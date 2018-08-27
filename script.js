@@ -12,6 +12,10 @@ const handleMouseMove = () => {
   r = getRandomArbitrary(0,255);
   g = getRandomArbitrary(0,255);
   b = getRandomArbitrary(0,255);
+
+
+
+  // something else changed
   a = Math.random();
 
   const randomColor = `rgba(${r},${g},${b},${a})`;
