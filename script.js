@@ -21,5 +21,5 @@ const handleMouseMove = () => {
 document.body.addEventListener('mousemove', handleMouseMove);
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('hi, there');
+  console.log('DOM initialized');
 });
